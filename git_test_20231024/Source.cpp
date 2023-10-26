@@ -30,6 +30,11 @@ int main(void)
 	// プログラム終了時にメモリリークをチェックする
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
+	std::cout << "Hello World!" << std::endl;
+	std::cout << "Let's commit!" << std::endl;
+	std::cout << "Now branch is develop!" << std::endl;
+	return 0;
+
 	// 入力待ち
 	cin.ignore(2, '\n');
 	cin.get();
