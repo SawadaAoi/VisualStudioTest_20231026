@@ -1,43 +1,42 @@
 // ============================
 // CL22
 // ----------------------------
-// ƒƒCƒ“—pcpp
+// ãƒ¡ã‚¤ãƒ³ç”¨cpp
 // ----------------------------
 // main.cpp
 // ============================
 
-// --- Œx—}Ž~ ---
+// --- è­¦å‘ŠæŠ‘æ­¢ ---
 #define  _CRT_SECURE_NO_WARNINGS
 
 
-// --- ƒCƒ“ƒNƒ‹[ƒh•” ----
+// --- ã‚¤ãƒ³ã‚¯ãƒ«ãƒ¼ãƒ‰éƒ¨ ----
 #include <iostream>
-#include<crtdbg.h> // ƒƒ‚ƒŠƒŠ[ƒNƒ`ƒFƒbƒN—p
+#include<crtdbg.h> // ãƒ¡ãƒ¢ãƒªãƒªãƒ¼ã‚¯ãƒã‚§ãƒƒã‚¯ç”¨
 
 
-// --- ’è”’è‹` ---
+// --- å®šæ•°å®šç¾© ---
 
-// --- \‘¢‘ÌéŒ¾•” ---
+// --- æ§‹é€ ä½“å®£è¨€éƒ¨ ---
 
-// --- ƒOƒ[ƒoƒ‹éŒ¾•” ---
+// --- ã‚°ãƒ­ãƒ¼ãƒãƒ«å®£è¨€éƒ¨ ---
 
-// --- ƒvƒƒgƒ^ƒCƒvéŒ¾•” ---
+// --- ãƒ—ãƒ­ãƒˆã‚¿ã‚¤ãƒ—å®£è¨€éƒ¨ ---
 
 using namespace std;
 
 int main(void)
 {
-	// ƒvƒƒOƒ‰ƒ€I—¹Žž‚Éƒƒ‚ƒŠƒŠ[ƒN‚ðƒ`ƒFƒbƒN‚·‚é
+	// ãƒ—ãƒ­ã‚°ãƒ©ãƒ çµ‚äº†æ™‚ã«ãƒ¡ãƒ¢ãƒªãƒªãƒ¼ã‚¯ã‚’ãƒã‚§ãƒƒã‚¯ã™ã‚‹
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
 	std::cout << "Hello World!" << std::endl;
 	std::cout << "Let's commit!" << std::endl;
 	std::cout << "Now branch is develop!" << std::endl;
-
 	std::cout << "Now branch is master!" << std::endl;
+ã€€std::cout << "Testã‚³ãƒ¡ãƒ³ãƒˆ20231028!" << std::endl;
 
-
-	// “ü—Í‘Ò‚¿
+	// å…¥åŠ›å¾…ã¡
 	cin.ignore(2, '\n');
 	cin.get();
 	return 0;
