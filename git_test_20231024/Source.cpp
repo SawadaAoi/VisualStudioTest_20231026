@@ -33,7 +33,7 @@ int main(void)
 	std::cout << "Hello World!" << std::endl;
 	std::cout << "Let's commit!" << std::endl;
 	std::cout << "Now branch is develop!" << std::endl;
-	return 0;
+	std::cout << "TestƒRƒƒ“ƒg20231028!" << std::endl;
 
 	// “ü—Í‘Ò‚¿
 	cin.ignore(2, '\n');
