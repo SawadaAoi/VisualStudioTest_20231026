@@ -34,7 +34,8 @@ int main(void)
 	std::cout << "Let's commit!" << std::endl;
 	std::cout << "Now branch is develop!" << std::endl;
 	std::cout << "Now branch is master!" << std::endl;
-　std::cout << "Testコメント20231028!" << std::endl;
+	std::cout << "Testコメント20231028!" << std::endl;
+	std::cout << "Testコメント20231028②!" << std::endl;
 
 	// 入力待ち
 	cin.ignore(2, '\n');
