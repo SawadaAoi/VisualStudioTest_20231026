@@ -36,6 +36,7 @@ int main(void)
 	std::cout << "Now branch is master!" << std::endl;
 	std::cout << "Testコメント20231028!" << std::endl;
 	std::cout << "Testコメント20231028②!" << std::endl;
+	std::cout << "Testコメント20231029!" << std::endl;
 
 	// 入力待ち
 	cin.ignore(2, '\n');
