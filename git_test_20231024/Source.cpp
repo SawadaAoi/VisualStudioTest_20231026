@@ -39,7 +39,8 @@ int main(void)
 	std::cout << "Testコメント20231029!" << std::endl;
 	std::cout << "正しいコミット" << std::endl;
 	std::cout << "featureB" << std::endl;
-  std::cout << "featureC" << std::endl;
+    std::cout << "featureC" << std::endl;
+    std::cout << "featureB②" << std::endl;
 	// 入力待ち
 	cin.ignore(2, '\n');
 	cin.get();
