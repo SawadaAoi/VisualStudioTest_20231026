@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\Information">
+      <UniqueIdentifier>{f9ebb3f8-acc2-46af-b05d-293dd3e7f87a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -20,8 +23,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="TriType.h">
+      <Filter>ヘッダー ファイル\Information</Filter>
+    </ClInclude>
     <ClInclude Include="DiType.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>ヘッダー ファイル\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="Pos.h">
+      <Filter>ヘッダー ファイル\Information</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
