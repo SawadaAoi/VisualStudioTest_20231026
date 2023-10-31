@@ -44,7 +44,7 @@ int main(void)
 	std::cout << "featureC②" << std::endl;
 	std::cout << "Test by Yamashita" << std::endl;
 
-	std::cout << "澤田変更" << std::endl;
+	std::cout << "澤田変更20231031" << std::endl;
 
 	// 入力待ち
 	cin.ignore(2, '\n');
