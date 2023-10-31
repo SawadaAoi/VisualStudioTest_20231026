@@ -42,6 +42,8 @@ int main(void)
     std::cout << "featureB②" << std::endl;
 	std::cout << "featureC" << std::endl;
 	std::cout << "featureC②" << std::endl;
+	std::cout << "Test by Yamashita" << std::endl;
+
 	std::cout << "澤田変更" << std::endl;
 
 	// 入力待ち
