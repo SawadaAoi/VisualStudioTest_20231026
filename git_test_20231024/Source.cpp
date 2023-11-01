@@ -39,7 +39,7 @@ int main(void)
 	std::cout << "Testコメント20231029!" << std::endl;
 	std::cout << "正しいコミト" << std::endl;
 	std::cout << "featureB" << std::endl;
-    std::cout << "featureB②" << std::endl;
+	std::cout << "featureB②" << std::endl;
 	std::cout << "featureC" << std::endl;
 	std::cout << "featureC②" << std::endl;
 	std::cout << "Test by Yamashita" << std::endl;
@@ -48,6 +48,7 @@ int main(void)
 	std::cout << "澤田変更20231031②" << std::endl;
 
 	std::cout << "featureTest1" << std::endl;
+	std::cout << "featureTest2" << std::endl;
 
 	// 入力待ち
 	cin.ignore(2, '\n');
